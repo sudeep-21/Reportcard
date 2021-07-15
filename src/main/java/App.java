@@ -1,8 +1,7 @@
-import inputOutput.InputOutput;
+import calculationOutput.CalculationOutput;
 
 public class App {
     public static void main(String args[]) {
-        InputOutput io = new InputOutput();
-        io.input();
+        CalculationOutput calc = new CalculationOutput();
     }
 }
